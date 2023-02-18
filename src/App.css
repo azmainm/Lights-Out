@@ -1,0 +1,26 @@
+.App {
+  max-width: 860px;
+  align-content: center;
+}
+body{
+  background-color: #01fff4;
+}
+.header{
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.cardgrid{
+  margin-top: 10%;
+}
+.card{
+  border-color: black;
+  border-width: 2px;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
