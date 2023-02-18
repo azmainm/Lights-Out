@@ -74,6 +74,48 @@ function App() {
       newB[j+1][i] = ! newB[j+1][i];
       setBoard([...newB])
     }
+    else if (j==0 && i==1){
+      newB[j][i] = ! newB[j][i];
+      newB[j+1][i] = ! newB[j+1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
+    else if (j==0 && i==2){
+      newB[j][i] = ! newB[j][i];
+      newB[j+1][i] = ! newB[j+1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
+    else if (j==0 && i==3){
+      newB[j][i] = ! newB[j][i];
+      newB[j+1][i] = ! newB[j+1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
+    else if (j==4 && i==1){
+      newB[j][i] = ! newB[j][i];
+      newB[j-1][i] = ! newB[j-1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
+    else if (j==4 && i==2){
+      newB[j][i] = ! newB[j][i];
+      newB[j-1][i] = ! newB[j-1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
+    else if (j==4 && i==3){
+      newB[j][i] = ! newB[j][i];
+      newB[j-1][i] = ! newB[j-1][i];
+      newB[j][i+1] = ! newB[j][i+1];
+      newB[j][i-1] = ! newB[j][i-1];
+      setBoard([...newB])
+    }
     else{
       newB[j][i] = ! newB[j][i];
       newB[j+1][i] = ! newB[j][i-1];
